@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;700&family=Inter&family=Readex+Pro&display=swap');
+
+header{
+  ul{
+    li{
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      color: #000000;
+      margin-right: 33px;
+    }
+  }
+}
+.main_banner{
+  background-color: #DCE5E2;
+  border-radius: 32px;
+  position: relative;
+  h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;
+  }
+  p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+  a{
+   border:  solid 1px black;
+    border-radius: 200px;
+    background-color: transparent;
+    padding: 14px 53px;
+  }
+}
+.owl-nav{
+  width: 95%;
+  position: absolute;
+  top: 155px;
+  left: 25px;
+  display: flex;
+  justify-content: space-between;
+  .owl-prev {
+    &:before {
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      content: "\f053";
+      color: black;
+      font-size: 30px;
+    }
+  }
+  .owl-next{
+      &:before{
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f054";
+        color: black;
+        font-size: 30px;
+      }
+    }
+  }
+.owl-stage{
+
+}
+.container{
+  h3{
+    margin: auto;
+    font-family: 'Readex Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+  }
+  p{
+    font-family: 'Readex Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 55px;
+    padding-top: 9px;
+
+  }
+
+  .column{
+  background: #FFFFFF;
+  border: black;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); }
+  position: relative;
+  padding-right: 50px;
+  image{
+    width: 60%;
+  }
+  h5{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+    justify-content: end;
+    position: absolute;
+    right:46px;
+    padding-top: 20px;
+  }
+  h4{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    color: #000000;
+    justify-content: end;
+    padding: 30px 30px 0px;
+
+
+  }
+  .second{
+    margin-top: 40px;
+    image{
+      position: relative;
+      width: 381px;
+      height: 270px;
+      right: 174px;
+    }
+    .watch{
+      h4{
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 38px;
+      text-align: right;
+      color: #000000;
+      justify-content: end;
+      padding: 30px 30px 0px;
+      position: absolute;
+
+      right: 18px;
+    }
+      h5{
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 19px;
+          color: #000000;
+
+          position: absolute;
+          right:46px;
+          padding-top: 20px;
+        justify-content: end;
+        align-items: center;
+        }
+    }
+  }
+
+
+}
+.phones{
+  padding-top: 85px;
+  padding-bottom: 70px;
+
+
+  h5{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+
+    position: absolute;
+    right:46px;
+    padding-top: 20px;
+    justify-content: end;
+    align-items: center;
+  }
+  h4{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    color: #000000;
+  }
+}
