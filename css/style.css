@@ -1,37 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;700&family=Inter&family=Readex+Pro&display=swap");
-header ul li {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: uppercase;
-  color: #000000;
-  margin-right: 33px; }
+header {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  header ul li {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 33px; }
+
+.navbar-text {
+  position: absolute;
+  top: 9px;
+  right: 50px; }
+  @media screen and (max-width: 510px) {
+    .navbar-text {
+      top: 12px;
+      right: 10px; } }
+
+.second_i {
+  position: absolute;
+  top: 9px;
+  right: 80px; }
 
 .main_banner {
   background-color: #DCE5E2;
   border-radius: 32px;
   position: relative; }
-  .main_banner h2 {
+  .main_banner h1 {
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 58px;
     line-height: 70px;
     color: #000000; }
-  .main_banner p {
+    @media screen and (max-width: 990px) {
+      .main_banner h1 {
+        font-size: 35px;
+        line-height: 40px; } }
+  .main_banner h2 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #000000; }
+    @media screen and (max-width: 990px) {
+      .main_banner h2 {
+        font-size: 8px; } }
   .main_banner a {
     border: solid 1px black;
     border-radius: 200px;
     background-color: transparent;
     padding: 14px 53px; }
+  @media screen and (min-width: 510px) {
+    .main_banner .right {
+      padding-top: 100px; } }
 
 .owl-nav {
   width: 95%;
@@ -40,12 +67,18 @@ header ul li {
   left: 25px;
   display: flex;
   justify-content: space-between; }
+  @media screen and (max-width: 990px) {
+    .owl-nav .owl-prev {
+      display: none; } }
   .owl-nav .owl-prev:before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f053";
     color: black;
     font-size: 30px; }
+  @media screen and (max-width: 990px) {
+    .owl-nav .owl-next {
+      display: none; } }
   .owl-nav .owl-next:before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
@@ -54,8 +87,7 @@ header ul li {
     font-size: 30px; }
 
 .container {
-  position: relative;
-  padding-right: 50px; }
+  position: relative; }
   .container h3 {
     margin: auto;
     font-family: 'Readex Pro',sans-serif;
@@ -64,7 +96,9 @@ header ul li {
     font-size: 42px;
     line-height: 52px;
     text-align: center;
-    color: #000000; }
+    color: #000000;
+    padding-top: 60px;
+    padding-bottom: 60px; }
   .container p {
     font-family: 'Readex Pro',sans-serif;
     font-style: normal;
@@ -81,7 +115,8 @@ header ul li {
     box-sizing: border-box;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); }
   .container image {
-    width: 60%; }
+    width: 100%;
+    align-content: end; }
   .container h5 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -104,10 +139,10 @@ header ul li {
     justify-content: end;
     padding: 30px 30px 0px; }
   .container .second {
-    margin-top: 40px; }
+    margin-top: 50px; }
     .container .second image {
       position: relative;
-      width: 381px;
+      width: 50%;
       height: 270px;
       right: 174px; }
     .container .second .watch h4 {
@@ -119,7 +154,7 @@ header ul li {
       text-align: right;
       color: #000000;
       justify-content: end;
-      padding: 30px 30px 0px;
+      padding: 30px 30px;
       position: absolute;
       right: 18px; }
     .container .second .watch h5 {
@@ -136,8 +171,10 @@ header ul li {
       align-items: center; }
 
 .phones {
-  padding-top: 85px;
-  padding-bottom: 70px; }
+  padding-top: 84px;
+  padding-bottom: 65px; }
+  .phones a:hover {
+    color: #80bdff; }
   .phones h5 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -158,5 +195,132 @@ header ul li {
     line-height: 38px;
     text-align: right;
     color: #000000; }
+
+.items img {
+  padding-bottom: 30px; }
+.items h6 {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  padding-top: 15px; }
+.items p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B;
+  text-align: left;
+  padding-bottom: 15px; }
+
+.three {
+  background-color: #F8F9FA;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  left: 40px;
+  height: 453px; }
+  .three a {
+    border: solid 1px black;
+    border-radius: 200px;
+    background-color: transparent;
+    padding: 14px 53px;
+    margin: auto;
+    position: absolute;
+    top: 40px;
+    left: 40px; }
+    @media screen and (max-width: 990px) {
+      .three a {
+        top: 70px;
+        left: -20px; } }
+    @media screen and (max-width: 768px) {
+      .three a {
+        top: 78px;
+        left: 125px; } }
+
+image {
+  padding-top: 300px; }
+
+p {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 10px;
+  padding-top: 20px; }
+
+h4 {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 10px; }
+  @media screen and (max-width: 768px) {
+    h4 {
+      padding: 30px 30px 10px; } }
+
+.talent ul li {
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  padding-bottom: 20px; }
+  @media screen and (max-width: 990px) {
+    .talent ul li {
+      font-size: 12px;
+      padding-bottom: 10px; } }
+
+.see_all {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .see_all:after {
+    content: "";
+    background-image: url("../img/arrow.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 28px;
+    margin-top: 5px; }
+
+.input-group {
+  margin: auto; }
+  .input-group button {
+    background-color: #F8F9FA;
+    border-radius: 100px;
+    border-right: none;
+    position: relative;
+    z-index: 5; }
+  .input-group input {
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+    background-color: #F8F9FA; }
+
+.small_a {
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */
