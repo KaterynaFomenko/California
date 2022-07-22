@@ -290,6 +290,8 @@ header{
   height: 453px;
   .image3{
     margin-top: 124px;
+    @media screen and (max-width: 768px) {
+      width: 50%}
   }
   .image2{
     margin-top: 87px;
@@ -306,14 +308,16 @@ header{
    position: absolute;
    top: 40px;
    left: 40px;
+
+
    @media screen and (max-width: 990px){
      top: 70px;
      left: -20px;}
    @media screen and (max-width: 768px) {
-   top: 78px;
-   left:125px}
+   top: 50px;
+   left:47px}
    @media screen and (max-width: 1200px) {
-     top:315px;
+     top:66px;
      left: -20px}
    }
    }
@@ -553,8 +557,6 @@ footer {
     line-height: 22px;
     color: #000000;
   border-top: solid 2px #DCE5E2;
-;
-
   }
 
   span{
@@ -569,3 +571,12 @@ footer {
     padding-top: 38px;
   }
 
+.underline_2 {
+  max-width: 1440px;
+
+  .made {
+    @media screen and(max-width: 570px) {
+    margin-left: 0;
+    }
+  }
+}

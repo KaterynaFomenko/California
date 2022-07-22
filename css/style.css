@@ -228,6 +228,9 @@ header {
   height: 453px; }
   .three .image3 {
     margin-top: 124px; }
+    @media screen and (max-width: 768px) {
+      .three .image3 {
+        width: 50%; } }
   .three .image2 {
     margin-top: 87px; }
   .three .image1 {
@@ -247,11 +250,11 @@ header {
         left: -20px; } }
     @media screen and (max-width: 768px) {
       .three a {
-        top: 78px;
-        left: 125px; } }
+        top: 50px;
+        left: 47px; } }
     @media screen and (max-width: 1200px) {
       .three a {
-        top: 315px;
+        top: 66px;
         left: -20px; } }
 
 .latest {
@@ -464,5 +467,11 @@ span {
   margin-left: 3px;
   margin-top: 38px;
   padding-top: 38px; }
+
+.underline_2 {
+  max-width: 1440px; }
+  @media screen and (max-width: 570px) {
+    .underline_2 .made {
+      margin-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */
